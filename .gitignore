@@ -1,0 +1,4 @@
+target/
+*.jar
+*.deb
+minikube-linux-amd64
