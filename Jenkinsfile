@@ -10,13 +10,13 @@ pipeline {
 
     stage('Docker Build') {
       steps {
-        sh 'docker build -t yourdockerhub/java-app:v1 .'
+        sh 'docker build -t shivareddy214/java-app:v1 .'
       }
     }
 
     stage('Push Image') {
       steps {
-        sh 'docker push yourdockerhub/java-app:v1'
+        sh 'docker push shivareddy214/java-app:v1'
       }
     }
 
